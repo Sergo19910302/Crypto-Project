@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Crypto Project</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css">
+    <link href="./css/page.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/loading.css" rel="stylesheet" type="text/css"/>
+    <link href="./css/moreInfoLoading.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="img/download.png">
+</head>
+<body>
+
+<!-- The Modal -->
+<div class="modal fade " id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+        <div id="modal" class="modal-content">
+            
+            <!-- Modal Header -->
+
+            <div class="modal-header">
+                <p class="symbolToggle">You can follow up to 5 Crypto Coins</p>
+                <button type="button" class="close" data-dismiss="modal"></button>
+            </div>
+
+            <!-- Modal body -->
+            <div class="modal-body col-12">
+
+            </div>
+
+            <!-- Modal footer -->
+            <div class="modal-footer">
+                <button type="button" class="btn-warning btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="fixedContainer">
+    <div class="container col-xl-8 col-12">
+        <div id="title" class="col-12">
+            <img id="imgTitle" src="img/download.png"/>
+            <span id="titleSpan">Crypto Currency Project</span>
+            <form id="formInput" action="">
+                <input id="inputForm" type="text">
+                <i class="fa fa-search"></i>
+            </form>
+        </div>
+
+
+        <!-- Nav tabs -->
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link tab active" data-toggle="tab" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="live" data-toggle="tab" href="#liveReport">Live Reports</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link tab" data-toggle="tab" href="#about">About</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Tab panes -->
+
+    <div class="tab-content container col-xl-8 col-12">
+        <div id="home" class="container col-xl-12 col-lg-12 col-12 tab-pane active">
+            <div class="container-fluid col-12">
+                <div class="holder" style="display: block;">
+                    <div class="preloader">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div id="coinsContainer" class="row" style="display: none;">
+                </div>
+            </div>
+
+        </div>
+        <div id="liveReport" class="container col-xl-12 col-lg-12 col-12 tab-pane">
+            <div class="container-fluid col-12">
+                <div id="liveReportHL">Choose crypto coins to get live crypto currency prices!</div>
+                <div id="chartContainer" class="col-12"></div>
+            </div>
+
+        </div>
+        <div id="about" class="container col-xl-12 col-lg-12 col-12 tab-pane ">
+            <div class="container-fluid col-12">
+                <div id="aboutContainer" class="col-xl-8 col-lg-10 col-12">
+                    <div id="profileDetails" class="col-lg-9 col-12">
+                        <p>
+                        <h3>About Me.../ Project</h3></p>
+                        <p>My name is Sergei Feigin and i'm a student FullStack Web Developer at JohnBryce Israel.</p>
+                        <p>This Crypto-Project is an example for JavaScript, Jquery, AJAX,
+                        Bootstrap, HTML and CSS Integration providing responsive user experience
+                        </p>
+                        <img src="img/me.png" class="round">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="./js/mainjs.js"></script>
+</body>
+</html>
